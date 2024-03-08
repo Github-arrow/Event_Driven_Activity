@@ -38,7 +38,7 @@
                 </ul>
                 <form class="d-flex">
                     <input onkeyup="search(this.value)" class="form-control me-2" type="text"
-                        placeholder="Search anything here..">
+                        placeholder="Search here..">
                     <button class="btn btn-primary" type="button">Search</button>
                 </form>
             </div>
@@ -54,7 +54,7 @@
                 <table class="table table-bordered table-hover">
                     <thead>
                         <tr>
-                            <th width="150" style="text-align: center;">Student ID</th>
+                            <th width="150" style="text-align: center;">Guest ID</th>
                             <th style="text-align: left; padding-left: 10px">Complete Name</th>
                             <th width="50" style="text-align: center;">Action</th>
                         </tr>
@@ -75,7 +75,7 @@
 
                     <!-- Modal Header -->
                     <div class="modal-header">
-                        <h4 class="modal-title">Student Information</h4>
+                        <h4 class="modal-title">Guest Information</h4>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
 
