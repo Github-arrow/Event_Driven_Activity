@@ -30,10 +30,10 @@
             <div class="collapse navbar-collapse" id="mynavbar">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="/">Dashboard</a>
+                        <a class="nav-link" href="/Github_Repository/Event_Driven_Activity/index.php">Dashboard</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/registration.php">Registration</a>
+                        <a class="nav-link" href="/Github_Repository/Event_Driven_Activity/registration.php">Registration</a>
                     </li>
                 </ul>
                 <form class="d-flex">
