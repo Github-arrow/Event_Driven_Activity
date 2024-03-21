@@ -9,6 +9,8 @@
     <script src="./assets/js/search.js"></script>
 
     <link href="./assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./resources/registration.php">
+    <link rel="stylesheet" href="./resources/login.php">
     <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <style>
@@ -30,15 +32,18 @@
             <div class="collapse navbar-collapse" id="mynavbar">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="/Github_Repository/Event_Driven_Activity/index.php">Dashboard</a>
+                        <a class="nav-link" href="./index.html">Dashboard</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/Github_Repository/Event_Driven_Activity/registration.php">Registration</a>
+                        <a class="nav-link" href="./resources/registration.php">Registration</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./resources/login.php">Login</a>
                     </li>
                 </ul>
                 <form class="d-flex">
                     <input onkeyup="search(this.value)" class="form-control me-2" type="text"
-                        placeholder="Search here..">
+                        placeholder="Search anything here..">
                     <button class="btn btn-primary" type="button">Search</button>
                 </form>
             </div>
@@ -47,15 +52,15 @@
 
     <div class="container">
         <p class="h2 mt-3">Dashboard</p>
-        <p>You can view all the recorded data on this dashboard.</p>
+        <p>You can view all recorded data, listed below.</p>
         <div class="card mt-3">
             <div class="card-header">List of Students</div>
             <div class="card-body">
                 <table class="table table-bordered table-hover">
                     <thead>
                         <tr>
-                            <th width="150" style="text-align: center;">Guest ID</th>
-                            <th style="text-align: left; padding-left: 10px">Complete Name</th>
+                            <th width="150" style="text-align: center;">Student ID</th>
+                            <th style="text-align: left; padding-left: 30px">Complete Name</th>
                             <th width="50" style="text-align: center;">Action</th>
                         </tr>
                     </thead>
@@ -75,7 +80,7 @@
 
                     <!-- Modal Header -->
                     <div class="modal-header">
-                        <h4 class="modal-title">Guest Information</h4>
+                        <h4 class="modal-title">Student Information</h4>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
 

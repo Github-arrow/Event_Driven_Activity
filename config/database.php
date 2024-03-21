@@ -2,8 +2,9 @@
 // Database Credentials
 $servername = "localhost";
 $username = "root";
-$password = "";
-$database_name = "db_hms";
+$password = ""; // Default Password: Blank | Empty
+
+$database_name = "db_tes";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $database_name);
