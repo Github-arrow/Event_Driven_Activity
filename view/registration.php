@@ -30,7 +30,7 @@
             <div class="collapse navbar-collapse" id="mynavbar">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="../index.html">Dashboard</a>
+                        <a class="nav-link" href="/index.php">Dashboard</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./registration.php">Registration</a>
@@ -58,7 +58,7 @@
                     } elseif (isset($_GET['invalid'])) {
                         ?>
                         <div class="alert alert-danger">
-                            <b>Existed Application ID:</b> Details below are already EXISTS, Please try another.
+                            <b>Existed Application ID:</b> Details below are already EXISTED, Please try another.
                         </div>
                         <?php
                     }
@@ -130,15 +130,15 @@
                     </div>
                 </div>
                 <div class="card-footer">
-                   <div class="row mt-12">
-                    <div>
-                        <span style="float: right">
-                            <button class="btn btn-success">
-                                Add New Student
-                            </button>
-                        </span>
-                   </div>
-                </div>
+                    <div class="row mt-12">
+                        <div>
+                            <span style="float: right">
+                                <button class="btn btn-success">
+                                    Add New Student
+                                </button>
+                            </span>
+                        </div>
+                    </div>
             </form>
         </div>
     </div>

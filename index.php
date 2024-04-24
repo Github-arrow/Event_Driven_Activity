@@ -30,13 +30,13 @@
             <div class="collapse navbar-collapse" id="mynavbar">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="./index.html">Dashboard</a>
+                        <a class="nav-link" href="./index.php">Dashboard</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./resources/registration.php">Registration</a>
+                        <a class="nav-link" href="/view/registration.php">Registration</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./resources/login.php">Login</a>
+                        <a class="nav-link" href="/view/login.php">Login</a>
                     </li>
                 </ul>
                 <form class="d-flex">
