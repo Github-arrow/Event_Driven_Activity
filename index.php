@@ -31,9 +31,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="mynavbar">
                     <ul class="navbar-nav me-auto">
-                        <li class="nav-item active">
+                        <!-- <li class="nav-item active">
                             <a class="nav-link" href="./index.php">Dashboard</a>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link" href="/view/registration.php">Registration</a>
                         </li>
@@ -41,6 +41,9 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item active">
                             <a class="nav-link" href="/view/login.php">Login</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/view/login.php"></a>
                         </li>
                     </ul>
                     <form class="d-flex">
