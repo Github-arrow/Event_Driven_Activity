@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tagolaon TES</title>
 
     <script src="../assets/js/search.js"></script>
 
@@ -14,13 +14,14 @@
     <style>
         body {
             background-color: #ecf0f1;
+            padding-top: 120px;
         }
     </style>
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="javascript:void(0)">
                     <img src="../assets/img/logo.png" height="60">
@@ -36,7 +37,7 @@
                     </ul>
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="../index.php">Dashboard</a>
+                            <a class="nav-link" href="../index.php">Back to Dashboard</a>
                         </li>
                     </ul>
                 </div>
@@ -48,10 +49,8 @@
         <!-- Student Information -->
 
         <div class="container">
-            <br>
             <p>You can add record for student here.</p>
             <div class="card mt-3">
-
                 <form action="../models/save.php" method="POST">
                     <div class="card-header h3">Registration Form</div>
                     <div class="card-body">
@@ -86,7 +85,6 @@
                                 <input name="inp_tesno" required type="text" placeholder="Enter TES Award Number here.."
                                     class="form-control mt-1">
                             </div>
-
                         </div>
                         <div class="row mt-3">
                             <div class="col-md-3">
@@ -164,6 +162,7 @@
 
                                 $conn->close();
                                 ?>
+
                             </select>
                         </div>
                         <div class="col-md-12">
@@ -186,22 +185,20 @@
                                 <option value="" disabled selected>-- SELECT BARANGAY --</option>
                             </select>
                         </div>
-                        <div class="col-md-12">
-                            <hr>
-                        </div>
-                        <div class="card-footer">
-                            <div class="row mt-12">
-                                <div>
-                                    <span style="float: right">
-                                        <button class="btn btn-success">
-                                            Add New Student
-                                        </button>
-                                    </span>
-                                </div>
-                            </div>
+                    </div>
                 </form>
+                <div class="card-footer">
+                    <div class="row">
+                        <div>
+                            <span style="float: right">
+                                <button class="btn btn-success">
+                                    Add New Student
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
     </main>
     <footer>
         <div>

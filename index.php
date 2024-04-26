@@ -14,13 +14,14 @@
     <style>
         body {
             background-color: #ecf0f1;
+            padding-top: 90px;
         }
     </style>
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="javascript:void(0)">
                     <img src="./assets/img/logo.png" height="60">
@@ -39,7 +40,7 @@
                     </ul>
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Login</a>
+                            <a class="nav-link" href="/view/login.php">Login</a>
                         </li>
                     </ul>
                     <form class="d-flex">
@@ -96,6 +97,7 @@
                         </div>
 
                     </div>
+
                 </div>
             </div>
         </div>
