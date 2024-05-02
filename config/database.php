@@ -1,8 +1,8 @@
-<?php
+<?php 
 // Database Credentials
 $servername = "localhost";
-$username = "arrow85";
-$password = "Br1@n09p120985";
+$username = "root";
+$password = ""; // Default Password: Blank | Empty
 
 $database_name = "db_tes";
 

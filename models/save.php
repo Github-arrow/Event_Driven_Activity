@@ -32,9 +32,9 @@ function save($data)
     if ($count['i'] == 0) {
         $query = "INSERT INTO t_students ($attributes) VALUES ($values)";
         $conn->query($query);
-        header('location: /view/registration.php?success');
+        header('location: /resources/registration.php?success');
     } else {
-        header('location: /view/registration.php?invalid');
+        header('location: /resources/registration.php?invalid');
     }
 
     $conn->close();
